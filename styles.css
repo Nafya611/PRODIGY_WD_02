@@ -1,0 +1,49 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color:#1A2130;
+}
+.container {
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   flex-direction: column;
+
+}
+.stopwatch{
+    border:10px solid #758694;
+    border-right: 10px solid #525CEB;
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.stopwatch h2{
+    color:white ;
+}
+.button-container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 3rem;;
+}
+.button i{
+    color: wheat;
+    font-size: 50px;
+}
+
+.button span{
+    font-size:16px;
+    color:#ADC4CE ;
+}
+.button i:hover{
+    color: #525CEB;
+
+}
